@@ -195,3 +195,56 @@ select{
     
     
 }
+
+
+
+
+/*---------------media queries--------------*/
+@media(max-width: 400px){
+    header h1{
+        font-size: 1.5rem;
+    }
+
+    form input, form button{
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    
+.select{
+    margin: 1rem;
+    display: block;
+}
+
+select{
+    width: 4rem;
+    padding: 0.5rem;
+}
+
+.select::after{
+    padding: 0.5rem;
+}
+    .todo-list{
+        width: 100%;
+    }
+    
+    .todo{
+        font-size: 1rem;
+    
+    }
+    
+    .todo li{
+        flex: 1;
+    }
+    
+    .trash-button, .complete-button{
+        padding: 0.5rem;
+        font-size: 0.5rem;
+    }
+    
+    .todo-item{
+    padding: 0rem 0.3rem;
+    }
+    
+    
+}
